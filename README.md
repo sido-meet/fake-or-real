@@ -10,7 +10,7 @@ Key results
 | Method name / Setting | Model     | Technique                       | Score   | Notes |
 |-----------------------:|:----------|:--------------------------------|:-------:|:------|
 | Self-consistency       | Qwen3 8B  | Self-consistency sampling + majority voting | 0.92116 | Baseline result reported in experiments |
-| No self-consistency    | Qwen3 8B  | Single-chain decoding (no aggregation)     | -       | Placeholder for comparison |
+| No self-consistency    | Qwen3 8B  | Single-chain decoding (no aggregation)     | 0.90663 | Single-run baseline (no aggregation) |
 | Other method (example) | <model>   | <technique>                  | -       | Add rows as you try other ablations |
 
 Contents
