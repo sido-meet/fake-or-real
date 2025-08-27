@@ -12,6 +12,7 @@ Key results
 | Self-consistency       | Qwen3 8B  | Self-consistency sampling + majority voting | 0.92116 | Baseline result reported in experiments |
 | No self-consistency    | Qwen3 8B  | Single-chain decoding (no aggregation)     | 0.90663 | Single-run baseline (no aggregation) |
 | STaR no self-consistency | STaR-Qwen3 8B   | Single-chain decoding + STaR SFT                  | 0.90871       | May STF code exists errors |
+| STaR self-consistency  | STaR-Qwen3 8B   | Self-consistency sampling + STaR SFT             | 0.91908       | Result after STaR SFT with self-consistency |
 | Other method (example) | <model>   | <technique>                  | -       | Add rows as you try other ablations |
 
 Contents
